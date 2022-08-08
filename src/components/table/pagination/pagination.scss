@@ -1,0 +1,30 @@
+.pagination {
+    &__list {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 5px;
+    }
+}
+.list {
+
+    &__btn {
+        padding: 10px;
+        border: 1px solid #d3d3d3;
+        border-radius: 2px;
+        background: #d3d3d3;
+        font-family: 'Source Sans Pro';
+        font-size: 18px;
+        font-weight: 600;
+        &:hover{
+            transition: all 0.5s;
+            background: #fefefe;
+            cursor: pointer;
+        }
+    }
+    &__item {
+    }
+}
